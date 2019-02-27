@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body{
+            background-color:darkgray;
+            text-align:center;
+            font-size:18px;
+            font-family:Arial;
+            }
+        
+        h3{
+            background-color:black;
+            color:white;
+        }
+        #btn {
+            color: black;
+            background-color: aliceblue;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function myFunction() {
+
+            document.getElementById("heading1").style.color = "white";
+            document.getElementById("heading1").style.backgroundColor = "blue";
+            document.getElementById("heading2").style.color = "white";
+            document.getElementById("heading2").style.backgroundColor = "blue";
+            document.getElementById("heading3").style.color = "white";
+            document.getElementById("heading3").style.backgroundColor = "blue";
+
+
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <img src="profile-pic.png" />
+    </div>
+    <br />
+    <div id="info">
+        <b>Name : </b><span>Swaroop Raja Marni</span><br />
+        <b>Email : </b><span>mswaroopraja@live.nmhu.edu</span><br />
+        <b>Phone :</b><span>505-****-**</span><br />
+    </div>
+    <br />
+    <div>
+        <input type="button" value="Change Appearance" id="btn" onclick="myFunction()"/>
+    </div>
+    <div>
+        <h3 id="heading1">Education</h3>
+        
+                <b>HS :</b> Robertson High School , GPA - 3.5, 2010 <br />
+           
+                <b>BS :</b> New Mexico Highlands University , GPA - 3.9, 2014 <br />
+           
+                <b>MS :</b> New Mexico Highlands University , GPA - 4.0, 2016 <br />
+           
+        
+    </div>
+    <div>
+        <h3 id="heading2">Work Smaples</h3>
+       
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
+    </div>
+    <div>
+        <h3 id="heading3">Address </h3>
+       
+        <p>Computer science , 281, New Mexico Highlands University </p>
+          
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12976.94776528886!2d-105.22533175!3d35.59722145!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1550817001876" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           
+
+    </div>
+    <br />
+    <div>
+        <div id="fb-root"></div>
+        <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+    </div>
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+</body>
+</html>
